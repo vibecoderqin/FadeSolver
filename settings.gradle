@@ -1,0 +1,21 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.fabricmc.net/' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        maven { url = 'https://maven.fabricmc.net/' }
+        maven { url = 'https://maven.isxander.dev/releases' }
+        maven { url = 'https://maven.terraformersmc.com/' }
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'chatgames'

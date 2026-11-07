@@ -1,0 +1,14 @@
+{
+  "chatgames.config.title": "FadeSolver",
+  "chatgames.config.general": "Fade",
+  "chatgames.config.enabled": "Enable solver",
+  "chatgames.config.enabled.desc": "Recognize and answer FadeCloud Prison chat games.",
+  "chatgames.config.auto_learn": "Learn from server answers",
+  "chatgames.config.auto_learn.desc": "Save correct answers revealed by the server for future prompts.",
+  "chatgames.config.minimum": "Minimum delay (seconds)",
+  "chatgames.config.maximum": "Maximum delay (seconds)",
+  "chatgames.config.delay.desc": "Random delay before sending an answer.",
+  "chatgames.command.opened": "FadeSolver configuration opened.",
+  "key.chatgames.clickgui": "Open FadeSolver configuration",
+  "key.categories.chatgames.main": "FadeSolver"
+}

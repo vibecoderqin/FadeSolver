@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "chatgames",
+  "version": "${version}",
+  "name": "FadeSolver",
+  "description": "A client-side Fabric mod that detects and solves supported FadeCloud Prison chat games.",
+  "authors": [{ "name": "vibecoderqin" }],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["io.github.vibecoderqin.fadesolver.AutoChatMod"],
+    "client": ["io.github.vibecoderqin.fadesolver.client.ChatGameSolverClient"],
+    "modmenu": ["io.github.vibecoderqin.fadesolver.client.ModMenuIntegration"]
+  },
+  "mixins": ["chatgames.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": ">=3.8.0"
+  },
+  "suggests": { "modmenu": ">=17.0.0" }
+}
